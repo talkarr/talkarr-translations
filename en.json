@@ -1,224 +1,32 @@
 {
     "application": {
-        "name": "Talkarr",
-        "description": "Download and manage your personal collection of chaos talks."
+        "description": "Download and manage your personal collection of chaos talks.",
+        "name": "Talkarr"
     },
-    "navigation": {
-        "settings": {
-            "title": "Settings",
-            "general": {
-                "title": "General",
-                "description": "Functionality control, external services, and other general settings."
-            },
-            "security": {
-                "title": "Security",
-                "description": "Manage users, permissions and security settings."
-            },
-            "mediaManagement": {
-                "title": "Media Management",
-                "description": "Naming and management of media files."
-            },
-            "tasks": {
-                "title": "Tasks",
-                "description": "Manage scheduled tasks and background jobs."
-            },
-            "licenses": {
-                "title": "Licenses",
-                "description": "View licenses of used packages."
-            }
-        },
-        "talks": "Talks",
-        "addTalk": "Add Talk",
-        "scanFiles": "Scan Files",
-        "importTalks": "Import Fahrplan"
-    },
-    "pages": {
-        "loginPage": {
-            "components": {
-                "loginPageForm": {
-                    "loginFailed": "Login failed: {{error}}"
-                }
-            },
-            "title": "Login to $t(application.name)",
-            "description": "Please enter your credentials to log in."
-        },
-        "homePage": {
-            "noMediaFound": {
-                "title": "You do not have any media yet!",
-                "buttonText": "Add some media!"
-            },
-            "noRootFolders": {
-                "buttonText": "Go to media management settings"
-            }
-        },
-        "settingsPage": {
-            "title": "Settings"
-        },
-        "generalSettingsPage": {
-            "title": "General settings",
-            "components": {
-                "generalSettingsForm": {
-                    "functionalityControl": {
-                        "title": "Functionality Control",
-                        "description": "Enable, disable or configure various features of the software.",
-                        "isRecordedFlagBehavior": {
-                            "primaryText": "Behavior of the 'is recorded' flag",
-                            "secondaryText": "This controls how the 'is recorded' flag is set for imported media."
-                        }
-                    },
-                    "externalServices": {
-                        "title": "External Services",
-                        "description": "Configure external services for this software.",
-                        "allowLibravatar": {
-                            "primaryText": "Allow Libravatar",
-                            "secondaryText": "This will enable fetching avatars via the account email."
-                        }
-                    }
-                }
-            }
-        },
-        "securitySettingsPage": {
-            "title": "Security settings",
-            "columns": {
-                "user": "User",
-                "createdAt": "Created at",
-                "updatedAt": "Updated at",
-                "actions": "Actions"
-            },
-            "noUsersFound": "No users found"
-        },
-        "mediaManagementSettingsPage": {
-            "title": "Media Management Settings",
-            "rootFolders": {
-                "title": "Root Folders",
-                "description": "Root folders are the base directories where media files are stored.",
-                "columns": {
-                    "folderName": "Folder Name",
-                    "freeSpace": "Free Space",
-                    "actions": "Actions"
-                },
-                "noRootFoldersConfigured": "No root folders configured"
-            },
-            "components": {
-                "addFolderButton": {
-                    "addFolder": "Add Folder"
-                },
-                "folderRow": {
-                    "deleteModal": {
-                        "title": "Delete Folder",
-                        "message": "Are you sure you want to delete the folder \"{{folderName}}\"?",
-                        "onSuccess": "Successfully deleted folder",
-                        "onError": "Failed to delete folder",
-                        "onErrorMessage": "Failed to delete folder: {{error}}"
-                    }
-                }
-            }
-        },
-        "taskSettingsPage": {
-            "title": "Tasks",
-            "noTasksRunning": "No tasks currently running or an error occurred.",
-            "pleaseTryAgain": "Please try again later.",
-            "components": {
-                "taskList": {
-                    "status": "Status: {{status}}",
-                    "startedAt": "Started at: {{startedAt}}",
-                    "progress": "Progress: {{progress}}%",
-                    "noTasksRunning": "No tasks currently running."
-                }
-            }
-        },
-        "licenseSettingsPage": {
-            "title": "Licenses",
-            "components": {
-                "licenseInfo": {
-                    "moreInformation": "More information"
-                }
-            }
-        },
-        "singleTalkPage": {
-            "title": "Talks",
-            "information": "Information",
-            "videos": "Videos",
-            "otherFiles": "Other Files"
-        },
-        "addTalksPage": {
-            "title": "Add Talk",
-            "rootFolderNotFound": "You do not have a root folder set up yet!",
-            "rootFolderNotFoundButtonText": "Go to media management settings",
-            "addTalkDescription": "To add a talk, just enter something about it in the search box! 🎉",
-            "noSearchResults": "No search results found!",
-            "components": {
-                "addTalksSearch": {
-                    "searchError": "An error occurred while searching for talks."
-                }
-            }
-        },
-        "importJsonPage": {
-            "title": "Import Fahrplan JSON",
-            "description": "Import talks from Eventfahrplan",
-            "checkJsonError": "An error occurred while verifying the Fahrplan JSON",
-            "pasteJsonHere": "Paste your Fahrplan JSON here",
-            "selectRootFolder": "Select Root Folder",
-            "loadJsonFromFile": "Load JSON from File",
-            "importButton": "Import",
-            "importResult": "Import Result",
-            "resetImport": "Reset Import",
-            "components": {
-                "importJsonRow": {
-                    "successfullyImported": "Successfully imported {{slug}}",
-                    "alreadyExists": "Talk already exists, skipping import for {{slug}}",
-                    "failedToImport": "Failed to import {{slug}}: {{error}}",
-                    "unknownImportStatus": "Unknown import status}"
-                }
-            }
-        },
-        "welcomePage": {
-            "title": "Welcome to $t(application.name)",
-            "description": "Please setup your admin account here. As this does not require authentication, do not expose this to the internet.",
-            "getStarted": "Get Started"
-        },
-        "welcomeStart": {
-            "title": "Setup your initial account",
-            "description": "This account will have admin privileges. Note, that you must have at least one admin account registered.",
-            "components": {
-                "initialAccountForm": {
-                    "passwordRequirements": "Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character.",
-                    "passwordMismatch": "Passwords do not match",
-                    "accountCreated": "Account created successfully!",
-                    "accountCreationFailed": "Failed to create account: {{error}}",
-                    "displayName": "Display Name",
-                    "displayNamePlaceholder": "Enter your display name",
-                    "email": "Email",
-                    "emailPlaceholder": "Enter your email",
-                    "password": "Password",
-                    "passwordPlaceholder": "Enter your password",
-                    "confirmPassword": "Confirm Password",
-                    "confirmPasswordPlaceholder": "Confirm your password",
-                    "createAccountButton": "Create your Account"
-                }
-            }
-        }
+    "common": {
+        "add": "Add",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "email": "Email",
+        "emailPlaceholder": "Enter your email",
+        "loading": "Loading…",
+        "login": "Login",
+        "password": "Password",
+        "passwordPlaceholder": "Enter your password",
+        "save": "Save",
+        "search": "Search"
     },
     "components": {
-        "authenticationWrapper": {
-            "youAreNotAllowedToAccessThisPage": "You are not allowed to access this page. Please log in."
-        },
-        "searchTextField": {
-            "sortTooltip": "Sort by",
-            "clearTooltip": "Clear search"
-        },
-        "notistackProvider": {
-            "dismiss": "Dismiss"
-        },
         "appNotAvailable": {
             "applicationNotAvailable": "The application is currently unavailable. Please try again later."
+        },
+        "authenticationWrapper": {
+            "youAreNotAllowedToAccessThisPage": "You are not allowed to access this page. Please log in."
         },
         "imageFallback": {
             "noImageAvailable": "No image available",
             "noImageAvailableDescription": "Please try again later."
-        },
-        "yourMediaColorExplanation": {
-            "totalEvents": "Total events"
         },
         "mediaItem": {
             "problem": "Problem"
@@ -232,143 +40,335 @@
                 "logout": "Logout",
                 "logoutFailedError": "Logout failed: {{error}}"
             }
+        },
+        "notistackProvider": {
+            "dismiss": "Dismiss"
+        },
+        "searchTextField": {
+            "clearTooltip": "Clear search",
+            "sortTooltip": "Sort by"
+        },
+        "yourMediaColorExplanation": {
+            "totalEvents": "Total events"
         }
     },
-    "modals": {
-        "addTalkModal": {
-            "selectRootFolder": "Root Folder",
-            "addTalkButtonText": "Add Talk"
+    "enums": {
+        "importIsRecordedFlagBehavior": {
+            "alwaysImport": {
+                "description": "The import will always be performed, regardless of the 'isRecorded' flag.",
+                "label": "Always import regardless of 'isRecorded' flag"
+            },
+            "skipImportIfFlagNotExists": {
+                "description": "If the 'isRecorded' flag does not exist, the import will be skipped.",
+                "label": "Skip import if 'isRecorded' flag does not exist"
+            },
+            "skipImportIfIsNotRecorded": {
+                "description": "If the 'isRecorded' flag is set to false, the import will be skipped.",
+                "label": "Skip import if 'isRecorded' flag is set to false"
+            }
         },
-        "addFolderModal": {
-            "title": "Add Root Folder",
-            "rootFolderName": "Root Folder Name",
-            "noRootFoldersFound": "No root folders found",
-            "errorFetchingRootFolders": "Error fetching root folders",
-            "folderAddedSuccessfully": "Folder added successfully",
-            "folderAddFailed": "Failed to add folder",
-            "cancel": "Cancel",
-            "addFolder": "Add Folder"
+        "mediaItemStatus": {
+            "Downloaded": "Downloaded videos",
+            "Downloading": "Downloading videos",
+            "Missing": "Missing videos",
+            "Problem": "Videos with problems"
         },
-        "informationModal": {
-            "title": "Informations about $t(application.name)",
-            "failedToLoadInfo": "Failed to load application information",
-            "unknownRepo": "Unknown repository",
-            "applicationVersion": "$t(application.name) Version",
-            "repository": "Repository",
-            "buildId": "Build ID",
-            "notBuildWithGithubActions": "Not built with GitHub Actions",
-            "nodeVersion": "Node.js Version",
-            "ytdlpVersion": "yt-dlp Version"
+        "searchTextFieldSortMethod": {
+            "DateAsc": "Date (Ascending)",
+            "DateDesc": "Date (Descending)",
+            "Relevance": "Relevance"
         },
-        "versionChangedModal": {
-            "title": "Version Change detected",
-            "message": "A new version of $t(application.name) is available. Please refresh the page to apply the changes.",
-            "refreshButton": "Refresh Page"
-        },
-        "confirmationModal": {
-            "cancel": "Cancel",
-            "confirm": "Confirm"
-        },
-        "rootFolderErrorModal": {
-            "title": "Root Folder Errors",
-            "failedToForceMark": "Failed to force root folder mark",
-            "rootFolderMarkSuccess": "Root folder marked successfully",
-            "rootFolderMarkNotFound": "Root folder mark not found",
-            "rootFolderMarkNotFoundDescription": "The folder is marked as a root folder, but the mark was not found. Check if the folder is correctly mounted and accessible. If everything seems correct, you can force the mark by clicking the button below. This should only be done if you are sure that the folder is correctly set up.",
-            "forceMarkButton": "Force Mark Root Folder"
+        "videoBadgeType": {
+            "conference": {
+                "action": "Click to search for this conference",
+                "default": "Conference"
+            },
+            "date": {
+                "action": "Click to search for this date",
+                "default": "Date"
+            },
+            "language": {
+                "action": "Click to search for this language",
+                "default": "Language"
+            },
+            "speaker": {
+                "action": "Click to search for this speaker",
+                "default": "Speaker"
+            },
+            "tag": {
+                "action": "Click to search for this tag",
+                "default": "Tag"
+            }
         }
-    },
-    "common": {
-        "login": "Login",
-        "password": "Password",
-        "email": "Email",
-        "emailPlaceholder": "Enter your email",
-        "passwordPlaceholder": "Enter your password",
-        "loading": "Loading...",
-        "save": "Save",
-        "cancel": "Cancel",
-        "delete": "Delete",
-        "add": "Add",
-        "edit": "Edit",
-        "search": "Search"
-    },
-    "talks": {
-        "conference": "Conference",
-        "date": "Date",
-        "language": "Language",
-        "speaker": "Speaker",
-        "tags": "Tags",
-        "path": "Path",
-        "size": "Size",
-        "duration": "Duration",
-        "status": "Status",
-        "statusValues": {
-            "downloading": "Downloading ({{progress}}%)",
-            "downloaded": "Downloaded",
-            "missing": "Missing",
-            "problem": "Problem",
-            "unknown": "Unknown"
-        },
-        "downloadError": "Download error",
-        "noVideoFiles": "No video files found",
-        "noOtherFiles": "No other files found"
     },
     "errors": {
+        "failedToLoadData": "Failed to load data. Please try it again later.",
         "unexpectedError": "An unexpected error occurred. Please try again.",
-        "unknownError": "An unknown error occurred.",
-        "failedToLoadData": "Failed to load data. Please try it again later."
+        "unknownError": "An unknown error occurred."
     },
     "messages": {
         "settingsSaveFailed": "Failed to save settings",
         "settingsSaveSuccess": "Settings saved successfully"
     },
-    "enums": {
-        "importIsRecordedFlagBehavior": {
-            "skipImportIfIsNotRecorded": {
-                "label": "Skip import if 'isRecorded' flag is set to false",
-                "description": "If the 'isRecorded' flag is set to false, the import will be skipped."
-            },
-            "skipImportIfFlagNotExists": {
-                "label": "Skip import if 'isRecorded' flag does not exist",
-                "description": "If the 'isRecorded' flag does not exist, the import will be skipped."
-            },
-            "alwaysImport": {
-                "label": "Always import regardless of 'isRecorded' flag",
-                "description": "The import will always be performed, regardless of the 'isRecorded' flag."
-            }
+    "modals": {
+        "addFolderModal": {
+            "addFolder": "Add Folder",
+            "cancel": "Cancel",
+            "errorFetchingRootFolders": "Error fetching root folders",
+            "folderAddFailed": "Failed to add folder",
+            "folderAddedSuccessfully": "Folder added successfully",
+            "noRootFoldersFound": "No root folders found",
+            "rootFolderName": "Root Folder Name",
+            "title": "Add Root Folder"
         },
-        "videoBadgeType": {
-            "tag": {
-                "default": "Tag",
-                "action": "Click to search for this tag"
-            },
-            "speaker": {
-                "default": "Speaker",
-                "action": "Click to search for this speaker"
-            },
-            "conference": {
-                "default": "Conference",
-                "action": "Click to search for this conference"
-            },
-            "language": {
-                "default": "Language",
-                "action": "Click to search for this language"
-            },
-            "date": {
-                "default": "Date",
-                "action": "Click to search for this date"
-            }
+        "addTalkModal": {
+            "addTalkButtonText": "Add Talk",
+            "selectRootFolder": "Root Folder"
         },
-        "searchTextFieldSortMethod": {
-            "Relevance": "Relevance",
-            "DateAsc": "Date (Ascending)",
-            "DateDesc": "Date (Descending)"
+        "confirmationModal": {
+            "cancel": "Cancel",
+            "confirm": "Confirm"
         },
-        "mediaItemStatus": {
-            "Downloaded": "Downloaded videos",
-            "Missing": "Missing videos",
-            "Downloading": "Downloading videos",
-            "Problem": "Videos with problems"
+        "informationModal": {
+            "applicationVersion": "$t(application.name) Version",
+            "buildId": "Build ID",
+            "failedToLoadInfo": "Failed to load application information",
+            "nodeVersion": "Node.js Version",
+            "notBuildWithGithubActions": "Not built with GitHub Actions",
+            "repository": "Repository",
+            "title": "Informations about $t(application.name)",
+            "unknownRepo": "Unknown repository",
+            "ytdlpVersion": "yt-dlp Version"
+        },
+        "rootFolderErrorModal": {
+            "failedToForceMark": "Failed to force root folder mark",
+            "forceMarkButton": "Force Mark Root Folder",
+            "rootFolderMarkNotFound": "Root folder mark not found",
+            "rootFolderMarkNotFoundDescription": "The folder is marked as a root folder, but the mark was not found. Check if the folder is correctly mounted and accessible. If everything seems correct, you can force the mark by clicking the button below. This should only be done if you are sure that the folder is correctly set up.",
+            "rootFolderMarkSuccess": "Root folder marked successfully",
+            "title": "Root Folder Errors"
+        },
+        "versionChangedModal": {
+            "message": "A new version of $t(application.name) is available. Please refresh the page to apply the changes.",
+            "refreshButton": "Refresh Page",
+            "title": "Version Change detected"
         }
+    },
+    "navigation": {
+        "addTalk": "Add Talk",
+        "importTalks": "Import Fahrplan",
+        "scanFiles": "Scan Files",
+        "settings": {
+            "general": {
+                "description": "Functionality control, external services, and other general settings.",
+                "title": "General"
+            },
+            "licenses": {
+                "description": "View licenses of used packages.",
+                "title": "Licenses"
+            },
+            "mediaManagement": {
+                "description": "Naming and management of media files.",
+                "title": "Media Management"
+            },
+            "security": {
+                "description": "Manage users, permissions and security settings.",
+                "title": "Security"
+            },
+            "tasks": {
+                "description": "Manage scheduled tasks and background jobs.",
+                "title": "Tasks"
+            },
+            "title": "Settings"
+        },
+        "talks": "Talks"
+    },
+    "pages": {
+        "addTalksPage": {
+            "addTalkDescription": "To add a talk, just enter something about it in the search box! 🎉",
+            "components": {
+                "addTalksSearch": {
+                    "searchError": "An error occurred while searching for talks."
+                }
+            },
+            "noSearchResults": "No search results found!",
+            "rootFolderNotFound": "You do not have a root folder set up yet!",
+            "rootFolderNotFoundButtonText": "Go to media management settings",
+            "title": "Add Talk"
+        },
+        "generalSettingsPage": {
+            "components": {
+                "generalSettingsForm": {
+                    "externalServices": {
+                        "allowLibravatar": {
+                            "primaryText": "Allow Libravatar",
+                            "secondaryText": "This will enable fetching avatars via the account email."
+                        },
+                        "description": "Configure external services for this software.",
+                        "title": "External Services"
+                    },
+                    "functionalityControl": {
+                        "description": "Enable, disable or configure various features of the software.",
+                        "isRecordedFlagBehavior": {
+                            "primaryText": "Behavior of the 'is recorded' flag",
+                            "secondaryText": "This controls how the 'is recorded' flag is set for imported media."
+                        },
+                        "title": "Functionality Control"
+                    }
+                }
+            },
+            "title": "General settings"
+        },
+        "homePage": {
+            "noMediaFound": {
+                "buttonText": "Add some media!",
+                "title": "You do not have any media yet!"
+            },
+            "noRootFolders": {
+                "buttonText": "Go to media management settings"
+            }
+        },
+        "importJsonPage": {
+            "checkJsonError": "An error occurred while verifying the Fahrplan JSON",
+            "components": {
+                "importJsonRow": {
+                    "alreadyExists": "Talk already exists, skipping import for {{slug}}",
+                    "failedToImport": "Failed to import {{slug}}: {{error}}",
+                    "successfullyImported": "Successfully imported {{slug}}",
+                    "unknownImportStatus": "Unknown import status}"
+                }
+            },
+            "description": "Import talks from Eventfahrplan",
+            "importButton": "Import",
+            "importResult": "Import Result",
+            "loadJsonFromFile": "Load JSON from File",
+            "pasteJsonHere": "Paste your Fahrplan JSON here",
+            "resetImport": "Reset Import",
+            "selectRootFolder": "Select Root Folder",
+            "title": "Import Fahrplan JSON"
+        },
+        "licenseSettingsPage": {
+            "components": {
+                "licenseInfo": {
+                    "moreInformation": "More information"
+                }
+            },
+            "title": "Licenses"
+        },
+        "loginPage": {
+            "components": {
+                "loginPageForm": {
+                    "loginFailed": "Login failed: {{error}}"
+                }
+            },
+            "description": "Please enter your credentials to log in.",
+            "title": "Login to $t(application.name)"
+        },
+        "mediaManagementSettingsPage": {
+            "components": {
+                "addFolderButton": {
+                    "addFolder": "Add Folder"
+                },
+                "folderRow": {
+                    "deleteModal": {
+                        "message": "Are you sure you want to delete the folder \"{{folderName}}\"?",
+                        "onError": "Failed to delete folder",
+                        "onErrorMessage": "Failed to delete folder: {{error}}",
+                        "onSuccess": "Successfully deleted folder",
+                        "title": "Delete Folder"
+                    }
+                }
+            },
+            "rootFolders": {
+                "columns": {
+                    "actions": "Actions",
+                    "folderName": "Folder Name",
+                    "freeSpace": "Free Space"
+                },
+                "description": "Root folders are the base directories where media files are stored.",
+                "noRootFoldersConfigured": "No root folders configured",
+                "title": "Root Folders"
+            },
+            "title": "Media Management Settings"
+        },
+        "securitySettingsPage": {
+            "columns": {
+                "actions": "Actions",
+                "createdAt": "Created at",
+                "updatedAt": "Updated at",
+                "user": "User"
+            },
+            "noUsersFound": "No users found",
+            "title": "Security settings"
+        },
+        "settingsPage": {
+            "title": "Settings"
+        },
+        "singleTalkPage": {
+            "information": "Information",
+            "otherFiles": "Other Files",
+            "title": "Talks",
+            "videos": "Videos"
+        },
+        "taskSettingsPage": {
+            "components": {
+                "taskList": {
+                    "noTasksRunning": "No tasks currently running.",
+                    "progress": "Progress: {{progress}}%",
+                    "startedAt": "Started at: {{startedAt}}",
+                    "status": "Status: {{status}}"
+                }
+            },
+            "noTasksRunning": "No tasks currently running or an error occurred.",
+            "pleaseTryAgain": "Please try again later.",
+            "title": "Tasks"
+        },
+        "welcomePage": {
+            "description": "Please setup your admin account here. As this does not require authentication, do not expose this to the internet.",
+            "getStarted": "Get Started",
+            "title": "Welcome to $t(application.name)"
+        },
+        "welcomeStart": {
+            "components": {
+                "initialAccountForm": {
+                    "accountCreated": "Account created successfully!",
+                    "accountCreationFailed": "Failed to create account: {{error}}",
+                    "confirmPassword": "Confirm Password",
+                    "confirmPasswordPlaceholder": "Confirm your password",
+                    "createAccountButton": "Create your Account",
+                    "displayName": "Display Name",
+                    "displayNamePlaceholder": "Enter your display name",
+                    "email": "Email",
+                    "emailPlaceholder": "Enter your email",
+                    "password": "Password",
+                    "passwordMismatch": "Passwords do not match",
+                    "passwordPlaceholder": "Enter your password",
+                    "passwordRequirements": "Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character."
+                }
+            },
+            "description": "This account will have admin privileges. Note, that you must have at least one admin account registered.",
+            "title": "Setup your initial account"
+        }
+    },
+    "talks": {
+        "conference": "Conference",
+        "date": "Date",
+        "downloadError": "Download error",
+        "duration": "Duration",
+        "language": "Language",
+        "noOtherFiles": "No other files found",
+        "noVideoFiles": "No video files found",
+        "path": "Path",
+        "size": "Size",
+        "speaker": "Speaker",
+        "status": "Status",
+        "statusValues": {
+            "downloaded": "Downloaded",
+            "downloading": "Downloading ({{progress}}%)",
+            "missing": "Missing",
+            "problem": "Problem",
+            "unknown": "Unknown"
+        },
+        "tags": "Tags"
     }
 }
