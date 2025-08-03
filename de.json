@@ -14,7 +14,32 @@
         "login": "Anmelden",
         "password": "Passwort",
         "passwordPlaceholder": "Gib dein Passwort ein",
-        "save": "Speichern"
+        "save": "Speichern",
+        "search": "Suchen"
+    },
+    "components": {
+        "appNotAvailable": {
+            "applicationNotAvailable": "Die App ist gerade nicht verfügbar. Versuche es später erneut."
+        },
+        "authenticationWrapper": {
+            "youAreNotAllowedToAccessThisPage": "Bitte melde dich an um diese Seite zu sehen."
+        },
+        "imageFallback": {
+            "noImageAvailable": "Kein Bild verfügbar",
+            "noImageAvailableDescription": "Versuche es später erneut."
+        },
+        "mediaItem": {
+            "problem": "Problem"
+        },
+        "navigation": {
+            "information": "Informationen über die App",
+            "navigationSearch": {
+                "searchPlaceholder": "Suchen"
+            },
+            "navigationUser": {
+                "logout": "Abmelden"
+            }
+        }
     },
     "pages": {
         "loginPage": {
