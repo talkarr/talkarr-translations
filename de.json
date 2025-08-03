@@ -2,5 +2,16 @@
     "application": {
         "name": "Talkarr"
     },
+    "pages": {
+        "loginPage": {
+            "components": {
+                "loginPageForm": {
+                    "loginFailed": "Login fehlgeschlagen: {{error}}"
+                }
+            },
+            "description": "Bitte gib deine Logindaten ein.",
+            "title": "Bei $t(application.name) anmelden"
+        }
+    },
     "thisLanguageName": "Deutsch"
 }
