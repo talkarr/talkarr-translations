@@ -287,7 +287,18 @@
                     "actions": "Aktionen",
                     "folderName": "Ordner-Name",
                     "freeSpace": "Freier Speicher"
-                }
+                },
+                "description": "Root-Ordner sind die Basis-Ordner für das Speichern der Mediendateien.",
+                "noRootFoldersConfigured": "Keine Root-Ordner konfiguriert",
+                "title": "Root Ordner"
+            },
+            "title": "Medienmanagement"
+        },
+        "securitySettingsPage": {
+            "columns": {
+                "actions": "Aktionen",
+                "createdAt": "Erstellt am",
+                "updatedAt": "Geändert am"
             }
         }
     },
