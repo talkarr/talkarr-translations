@@ -28,6 +28,9 @@
             "noImageAvailable": "Kein Bild verfügbar",
             "noImageAvailableDescription": "Versuche es später erneut."
         },
+        "languageChanger": {
+            "weblateInfo": "Hilf mit der Übersetzung auf unserer Übersetzungs-Plattform!"
+        },
         "mediaItem": {
             "problem": "Problem"
         },
@@ -37,8 +40,19 @@
                 "searchPlaceholder": "Suchen"
             },
             "navigationUser": {
-                "logout": "Abmelden"
+                "logout": "Abmelden",
+                "logoutFailedError": "Abmelden fehlgeschlagen: {{error}}"
             }
+        },
+        "notistackProvider": {
+            "dismiss": "Verwerfen"
+        },
+        "searchTextField": {
+            "clearTooltip": "Suche löschen",
+            "sortTooltip": "Sortieren"
+        },
+        "yourMediaColorExplanation": {
+            "totalEvents": "Gesamt-Events"
         }
     },
     "pages": {
