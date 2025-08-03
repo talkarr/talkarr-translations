@@ -321,7 +321,8 @@
                     "startedAt": "Gestartet um: {{startedAt}}",
                     "status": "Status: {{status}}"
                 }
-            }
+            },
+            "noTasksRunning": "Entweder trat ein Fehler auf oder es laufen derzeit keine Aufgaben."
         }
     },
     "thisLanguageName": "Deutsch"
