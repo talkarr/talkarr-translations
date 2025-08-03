@@ -113,6 +113,12 @@
         "settingsSaveFailed": "Die Einstellungen konnten nicht gespeichert werden",
         "settingsSaveSuccess": "Einstellungen erfolgreich gespeichert"
     },
+    "modals": {
+        "addFolderModal": {
+            "addFolder": "Ordner hinzufügen",
+            "cancel": "Abbrechen"
+        }
+    },
     "pages": {
         "loginPage": {
             "components": {
