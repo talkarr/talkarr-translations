@@ -209,6 +209,9 @@
                         },
                         "description": "Konfiguriere externe Dienste für diese Software.",
                         "title": "Externe Dienste"
+                    },
+                    "functionalityControl": {
+                        "description": "Aktiviere, deaktiviere oder konfiguriere verschiedenste Funktionen der Software."
                     }
                 }
             }
