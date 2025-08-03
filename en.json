@@ -3,6 +3,7 @@
         "description": "Download and manage your personal collection of chaos talks.",
         "name": "Talkarr"
     },
+    "thisLanguageName": "English",
     "common": {
         "add": "Add",
         "cancel": "Cancel",
