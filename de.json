@@ -211,7 +211,10 @@
                         "title": "Externe Dienste"
                     },
                     "functionalityControl": {
-                        "description": "Aktiviere, deaktiviere oder konfiguriere verschiedenste Funktionen der Software."
+                        "description": "Aktiviere, deaktiviere oder konfiguriere verschiedenste Funktionen der Software.",
+                        "isRecordedFlagBehavior": {
+                            "primaryText": "Verhalten der „isRecorded“-Flag"
+                        }
                     }
                 }
             }
