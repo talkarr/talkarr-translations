@@ -237,7 +237,8 @@
                 "importJsonRow": {
                     "alreadyExists": "Vortrag existiert bereits, überspringe Import für {{slug}}",
                     "failedToImport": "Fehler beim Importieren von {{slug}}: {{error}}",
-                    "successfullyImported": "{{slug}} erfolgreich importiert"
+                    "successfullyImported": "{{slug}} erfolgreich importiert",
+                    "unknownImportStatus": "Unbekannter Import-Status"
                 }
             }
         },
