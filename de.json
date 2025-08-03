@@ -298,8 +298,20 @@
             "columns": {
                 "actions": "Aktionen",
                 "createdAt": "Erstellt am",
-                "updatedAt": "Geändert am"
-            }
+                "updatedAt": "Geändert am",
+                "user": "Nutzer"
+            },
+            "noUsersFound": "Keine Nutzer gefunden",
+            "title": "Sicherheitseinstellungen"
+        },
+        "settingsPage": {
+            "title": "Einstellungen"
+        },
+        "singleTalkPage": {
+            "information": "Informationen",
+            "otherFiles": "Andere Dateien",
+            "title": "Vorträge",
+            "videos": "Videos"
         }
     },
     "thisLanguageName": "Deutsch"
