@@ -134,7 +134,14 @@
         },
         "informationModal": {
             "applicationVersion": "$t(application.name) Version",
-            "buildId": "Build-ID"
+            "buildId": "Build-ID",
+            "failedToLoadInfo": "Fehler beim Laden der App-Informationen",
+            "nodeVersion": "Node.js-Version",
+            "notBuildWithGithubActions": "Nicht mit GitHub Actions gebaut",
+            "repository": "Repository",
+            "title": "Informationen über $t(application.name)",
+            "unknownRepo": "Unbekanntes Repository",
+            "ytdlpVersion": "yt-dlp Version"
         }
     },
     "pages": {
