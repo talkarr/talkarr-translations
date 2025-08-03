@@ -117,7 +117,19 @@
         "addFolderModal": {
             "addFolder": "Ordner hinzufügen",
             "cancel": "Abbrechen",
-            "errorFetchingRootFolders": "Fehler beim Abrufen der Root-Ordner"
+            "errorFetchingRootFolders": "Fehler beim Abrufen der Root-Ordner",
+            "folderAddFailed": "Ordner konnte nicht hinzugefügt werden",
+            "folderAddedSuccessfully": "Ordner erfolgreich hinzugefügt",
+            "noRootFoldersFound": "Keine Root-Ordner gefunden",
+            "rootFolderName": "Root-Ordner Name",
+            "title": "Root-Ordner hinzufügen"
+        },
+        "addTalkModal": {
+            "addTalkButtonText": "Vortrag hinzufügen",
+            "selectRootFolder": "Root-Ordner"
+        },
+        "confirmationModal": {
+            "cancel": "Abbrechen"
         }
     },
     "pages": {
