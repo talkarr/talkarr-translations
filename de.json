@@ -55,6 +55,13 @@
             "totalEvents": "Gesamt-Events"
         }
     },
+    "enums": {
+        "importIsRecordedFlagBehavior": {
+            "alwaysImport": {
+                "description": "Der Import wird immer durchgeführt, unabhängig von der „isRecorded“-Flag."
+            }
+        }
+    },
     "pages": {
         "loginPage": {
             "components": {
