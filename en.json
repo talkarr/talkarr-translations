@@ -232,7 +232,7 @@
             }
         },
         "importJsonPage": {
-            "checkJsonError": "An error occurred while verifying the Fahrplan JSON",
+            "checkJsonError": "An error occurred while verifying the EventFahrplan JSON",
             "components": {
                 "importJsonRow": {
                     "alreadyExists": "Talk already exists, skipping import for {{slug}}",
@@ -245,10 +245,10 @@
             "importButton": "Import",
             "importResult": "Import Result",
             "loadJsonFromFile": "Load JSON from File",
-            "pasteJsonHere": "Paste your Fahrplan JSON here",
+            "pasteJsonHere": "Paste your EventFahrplan JSON here",
             "resetImport": "Reset Import",
             "selectRootFolder": "Select Root Folder",
-            "title": "Import Fahrplan JSON"
+            "title": "Import EventFahrplan JSON"
         },
         "licenseSettingsPage": {
             "components": {
