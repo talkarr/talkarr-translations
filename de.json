@@ -232,7 +232,12 @@
             }
         },
         "importJsonPage": {
-            "checkJsonError": "Beim Überprüfen des EventFahrplan JSON ist ein Fehler aufgetreten"
+            "checkJsonError": "Beim Überprüfen des EventFahrplan JSON ist ein Fehler aufgetreten",
+            "components": {
+                "importJsonRow": {
+                    "alreadyExists": "Vortrag existiert bereits, überspringe Import für {{slug}}"
+                }
+            }
         },
         "loginPage": {
             "components": {
