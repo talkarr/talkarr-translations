@@ -64,7 +64,14 @@
             "skipImportIfFlagNotExists": {
                 "description": "Wenn die „isRecorded“-Flag nicht vorhanden ist, wird der Import übersprungen.",
                 "label": "Import überspringen, wenn die „isRecorded“-Flag nicht vorhanden ist"
+            },
+            "skipImportIfIsNotRecorded": {
+                "description": "Wenn die „isRecorded“-Flag auf „false“ gesetzt ist, wird der Import übersprungen.",
+                "label": "Import überspringen, wenn die „isRecorded“-Flag auf „false“ gesetzt ist"
             }
+        },
+        "mediaItemStatus": {
+            "Downloaded": "Heruntergeladene Videos"
         }
     },
     "pages": {
