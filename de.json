@@ -224,7 +224,11 @@
         },
         "homePage": {
             "noMediaFound": {
-                "buttonText": "Füge Medien hinzu!"
+                "buttonText": "Füge Medien hinzu!",
+                "title": "Du hast noch keine Medien!"
+            },
+            "noRootFolders": {
+                "buttonText": "Gehe zu Medienmanagement"
             }
         },
         "loginPage": {
