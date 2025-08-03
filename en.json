@@ -241,7 +241,7 @@
                     "unknownImportStatus": "Unknown import status"
                 }
             },
-            "description": "Import talks from Eventfahrplan",
+            "description": "Import talks from EventFahrplan",
             "importButton": "Import",
             "importResult": "Import Result",
             "loadJsonFromFile": "Load JSON from File",
