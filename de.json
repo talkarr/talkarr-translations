@@ -58,7 +58,8 @@
     "enums": {
         "importIsRecordedFlagBehavior": {
             "alwaysImport": {
-                "description": "Der Import wird immer durchgeführt, unabhängig von der „isRecorded“-Flag."
+                "description": "Der Import wird immer durchgeführt, unabhängig von der „isRecorded“-Flag.",
+                "label": "Immer importieren, unabhängig von der „isRecorded“-Flag"
             }
         }
     },
