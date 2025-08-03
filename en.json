@@ -238,7 +238,7 @@
                     "alreadyExists": "Talk already exists, skipping import for {{slug}}",
                     "failedToImport": "Failed to import {{slug}}: {{error}}",
                     "successfullyImported": "Successfully imported {{slug}}",
-                    "unknownImportStatus": "Unknown import status}"
+                    "unknownImportStatus": "Unknown import status"
                 }
             },
             "description": "Import talks from Eventfahrplan",
