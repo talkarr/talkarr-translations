@@ -51,6 +51,9 @@
         },
         "yourMediaColorExplanation": {
             "totalEvents": "Total events"
+        },
+        "languageChanger": {
+            "weblateInfo": "Help translating the project by contributing on our Translation page!"
         }
     },
     "enums": {
