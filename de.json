@@ -236,7 +236,8 @@
             "components": {
                 "importJsonRow": {
                     "alreadyExists": "Vortrag existiert bereits, überspringe Import für {{slug}}",
-                    "failedToImport": "Fehler beim Importieren von {{slug}}: {{error}}"
+                    "failedToImport": "Fehler beim Importieren von {{slug}}: {{error}}",
+                    "successfullyImported": "{{slug}} erfolgreich importiert"
                 }
             }
         },
