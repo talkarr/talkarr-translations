@@ -60,6 +60,10 @@
             "alwaysImport": {
                 "description": "Der Import wird immer durchgeführt, unabhängig von der „isRecorded“-Flag.",
                 "label": "Immer importieren, unabhängig von der „isRecorded“-Flag"
+            },
+            "skipImportIfFlagNotExists": {
+                "description": "Wenn die „isRecorded“-Flag nicht vorhanden ist, wird der Import übersprungen.",
+                "label": "Import überspringen, wenn die „isRecorded“-Flag nicht vorhanden ist"
             }
         }
     },
