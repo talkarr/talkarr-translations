@@ -159,7 +159,21 @@
     },
     "navigation": {
         "addTalk": "Vortrag hinzufügen",
-        "importTalks": "EventFahrplan importieren"
+        "importTalks": "EventFahrplan importieren",
+        "scanFiles": "Dateien scannen",
+        "settings": {
+            "general": {
+                "description": "Funktionen, externe Dienste und andere allgemeine Einstellungen.",
+                "title": "Allgemein"
+            },
+            "licenses": {
+                "description": "Lizenzen von verwendeten Bibliotheken anzeigen.",
+                "title": "Lizenzen"
+            },
+            "mediaManagement": {
+                "description": "Benennung und Verwaltung von Mediendateien."
+            }
+        }
     },
     "pages": {
         "loginPage": {
