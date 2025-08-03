@@ -109,6 +109,10 @@
         "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es erneut.",
         "unknownError": "Ein unerwarteter Fehler ist aufgetreten."
     },
+    "messages": {
+        "settingsSaveFailed": "Die Einstellungen konnten nicht gespeichert werden",
+        "settingsSaveSuccess": "Einstellungen erfolgreich gespeichert"
+    },
     "pages": {
         "loginPage": {
             "components": {
