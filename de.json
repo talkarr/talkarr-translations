@@ -312,6 +312,15 @@
             "otherFiles": "Andere Dateien",
             "title": "Vorträge",
             "videos": "Videos"
+        },
+        "taskSettingsPage": {
+            "components": {
+                "taskList": {
+                    "noTasksRunning": "Derzeit werden keine Aufgaben ausgeführt.",
+                    "progress": "Fortschritt: {{progress}}%",
+                    "startedAt": "Gestartet um: {{startedAt}}"
+                }
+            }
         }
     },
     "thisLanguageName": "Deutsch"
