@@ -213,8 +213,8 @@
                     "functionalityControl": {
                         "description": "Enable, disable or configure various features of the software.",
                         "isRecordedFlagBehavior": {
-                            "primaryText": "Behavior of the 'is recorded' flag",
-                            "secondaryText": "This controls how the 'is recorded' flag is set for imported media."
+                            "primaryText": "Behavior of the 'isRecorded' flag",
+                            "secondaryText": "This controls how the 'isRecorded' flag is set for imported media."
                         },
                         "title": "Functionality Control"
                     }
