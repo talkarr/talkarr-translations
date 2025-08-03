@@ -188,7 +188,14 @@
     },
     "pages": {
         "addTalksPage": {
-            "addTalkDescription": "Gib einfach etwas in der Suche ein um einen Talk hinzuzufügen! 🎉"
+            "addTalkDescription": "Gib einfach etwas in der Suche ein um einen Talk hinzuzufügen! 🎉",
+            "components": {
+                "addTalksSearch": {
+                    "searchError": "Bei der Suche nach Vorträgen ist ein Fehler aufgetreten."
+                }
+            },
+            "noSearchResults": "Keine Suchergebnisse gefunden!",
+            "rootFolderNotFound": "Du hast noch keinen Root-Ordner aufgesetzt!"
         },
         "loginPage": {
             "components": {
