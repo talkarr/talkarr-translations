@@ -175,11 +175,21 @@
                 "title": "Medienverwaltung"
             },
             "security": {
-                "description": "Verwaltung von Nutzern, Berechtigungen und Sicherheitseinstellungen."
-            }
-        }
+                "description": "Verwaltung von Nutzern, Berechtigungen und Sicherheitseinstellungen.",
+                "title": "Sicherheit"
+            },
+            "tasks": {
+                "description": "Verwaltung von geplanten Aufgaben und Hintergrundjob.",
+                "title": "Aufgaben"
+            },
+            "title": "Einstellungen"
+        },
+        "talks": "Vorträge"
     },
     "pages": {
+        "addTalksPage": {
+            "addTalkDescription": "Gib einfach etwas in der Suche ein um einen Talk hinzuzufügen! 🎉"
+        },
         "loginPage": {
             "components": {
                 "loginPageForm": {
