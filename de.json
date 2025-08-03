@@ -322,7 +322,14 @@
                     "status": "Status: {{status}}"
                 }
             },
-            "noTasksRunning": "Entweder trat ein Fehler auf oder es laufen derzeit keine Aufgaben."
+            "noTasksRunning": "Entweder trat ein Fehler auf oder es laufen derzeit keine Aufgaben.",
+            "pleaseTryAgain": "Versuche es später erneut.",
+            "title": "Aufgaben"
+        },
+        "welcomePage": {
+            "description": "Bitte richte dein Admin-Konto ein. Stelle sicher, das deine Instanz nicht aus dem Internet erreichbar ist, solange das Admin-Konto nicht aufgesetzt ist.",
+            "getStarted": "Erste Schritte",
+            "title": "Willkommen bei $t(application.name)"
         }
     },
     "thisLanguageName": "Deutsch"
