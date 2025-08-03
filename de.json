@@ -213,10 +213,18 @@
                     "functionalityControl": {
                         "description": "Aktiviere, deaktiviere oder konfiguriere verschiedenste Funktionen der Software.",
                         "isRecordedFlagBehavior": {
-                            "primaryText": "Verhalten der „isRecorded“-Flag"
-                        }
+                            "primaryText": "Verhalten der „isRecorded“-Flag",
+                            "secondaryText": "Dies steuert, wie die „isRecorded“-Flag für importierte Medien gesetzt wird."
+                        },
+                        "title": "Funktionsverwaltung"
                     }
                 }
+            },
+            "title": "Allgemeine Einstellungen"
+        },
+        "homePage": {
+            "noMediaFound": {
+                "buttonText": "Füge Medien hinzu!"
             }
         },
         "loginPage": {
