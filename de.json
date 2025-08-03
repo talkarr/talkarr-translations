@@ -104,6 +104,11 @@
             }
         }
     },
+    "errors": {
+        "failedToLoadData": "Laden der Daten fehlgeschlagen. Bitte versuche es später erneut.",
+        "unexpectedError": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es erneut.",
+        "unknownError": "Ein unerwarteter Fehler ist aufgetreten."
+    },
     "pages": {
         "loginPage": {
             "components": {
