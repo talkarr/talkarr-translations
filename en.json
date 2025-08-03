@@ -322,7 +322,7 @@
                     "status": "Status: {{status}}"
                 }
             },
-            "noTasksRunning": "No tasks currently running or an error occurred.",
+            "noTasksRunning": "Either an error occurred or no tasks are currently running.",
             "pleaseTryAgain": "Please try again later.",
             "title": "Tasks"
         },
