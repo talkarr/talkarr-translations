@@ -247,7 +247,16 @@
             "loadJsonFromFile": "Von JSON-Datei laden",
             "pasteJsonHere": "Füge hier dein JSON aus EventFahrplan ein",
             "resetImport": "Import zurücksetzen",
-            "selectRootFolder": "Root-Ordner auswählen"
+            "selectRootFolder": "Root-Ordner auswählen",
+            "title": "EventFahrplan-JSON importieren"
+        },
+        "licenseSettingsPage": {
+            "components": {
+                "licenseInfo": {
+                    "moreInformation": "Mehr Informationen"
+                }
+            },
+            "title": "Lizenzen"
         },
         "loginPage": {
             "components": {
@@ -257,6 +266,29 @@
             },
             "description": "Bitte gib deine Logindaten ein.",
             "title": "Bei $t(application.name) anmelden"
+        },
+        "mediaManagementSettingsPage": {
+            "components": {
+                "addFolderButton": {
+                    "addFolder": "Ordner hinzufügen"
+                },
+                "folderRow": {
+                    "deleteModal": {
+                        "message": "Bist du dir sicher, dass du den Ordner „{{folderName}}“ löschen möchtest?",
+                        "onError": "Fehler beim Löschen des Ordners",
+                        "onErrorMessage": "Fehler beim Löschen des Ordners: {{error}}",
+                        "onSuccess": "Ordner erfolgreich gelöscht",
+                        "title": "Ordner löschen"
+                    }
+                }
+            },
+            "rootFolders": {
+                "columns": {
+                    "actions": "Aktionen",
+                    "folderName": "Ordner-Name",
+                    "freeSpace": "Freier Speicher"
+                }
+            }
         }
     },
     "thisLanguageName": "Deutsch"
