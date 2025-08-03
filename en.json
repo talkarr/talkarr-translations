@@ -3,7 +3,6 @@
         "description": "Download and manage your personal collection of chaos talks.",
         "name": "Talkarr"
     },
-    "thisLanguageName": "English",
     "common": {
         "add": "Add",
         "cancel": "Cancel",
@@ -29,6 +28,9 @@
             "noImageAvailable": "No image available",
             "noImageAvailableDescription": "Please try again later."
         },
+        "languageChanger": {
+            "weblateInfo": "Help translating the project by contributing on our Translation page!"
+        },
         "mediaItem": {
             "problem": "Problem"
         },
@@ -51,9 +53,6 @@
         },
         "yourMediaColorExplanation": {
             "totalEvents": "Total events"
-        },
-        "languageChanger": {
-            "weblateInfo": "Help translating the project by contributing on our Translation page!"
         }
     },
     "enums": {
@@ -160,7 +159,7 @@
     },
     "navigation": {
         "addTalk": "Add Talk",
-        "importTalks": "Import Fahrplan",
+        "importTalks": "Import EventFahrplan",
         "scanFiles": "Scan Files",
         "settings": {
             "general": {
@@ -374,5 +373,6 @@
             "unknown": "Unknown"
         },
         "tags": "Tags"
-    }
+    },
+    "thisLanguageName": "English"
 }
