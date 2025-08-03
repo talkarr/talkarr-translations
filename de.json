@@ -171,7 +171,11 @@
                 "title": "Lizenzen"
             },
             "mediaManagement": {
-                "description": "Benennung und Verwaltung von Mediendateien."
+                "description": "Benennung und Verwaltung von Mediendateien.",
+                "title": "Medienverwaltung"
+            },
+            "security": {
+                "description": "Verwaltung von Nutzern, Berechtigungen und Sicherheitseinstellungen."
             }
         }
     },
