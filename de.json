@@ -147,7 +147,14 @@
             "failedToForceMark": "Root-Ordner konnte nicht markiert werden",
             "forceMarkButton": "Root-Ordner-Markierung erzwingen",
             "rootFolderMarkNotFound": "Root-Ordner-Markierung nicht gefunden",
-            "rootFolderMarkNotFoundDescription": "Der Ordner ist als Root-Ordner markiert, die Markierung wurde jedoch nicht gefunden. Überprüfe, ob der Ordner korrekt eingebunden und erreichbar ist. Wenn alles korrekt erscheint, kannst du die Markierung durch Klicken auf den Knopf erzwingen. Dies sollte nur erfolgen, wenn du sicher bist, dass der Ordner korrekt eingerichtet ist."
+            "rootFolderMarkNotFoundDescription": "Der Ordner ist als Root-Ordner markiert, die Markierung wurde jedoch nicht gefunden. Überprüfe, ob der Ordner korrekt eingebunden und erreichbar ist. Wenn alles korrekt erscheint, kannst du die Markierung durch Klicken auf den Knopf erzwingen. Dies sollte nur erfolgen, wenn du sicher bist, dass der Ordner korrekt eingerichtet ist.",
+            "rootFolderMarkSuccess": "Root-Ordner erfolgreich markiert",
+            "title": "Root-Ordner-Fehler"
+        },
+        "versionChangedModal": {
+            "message": "Eine neue Version von $t(application.name) ist verfügbar. Bitte lade die Seite neu um die Änderungen anzuwenden.",
+            "refreshButton": "Seite neuladen",
+            "title": "Neue Version erkannt"
         }
     },
     "pages": {
