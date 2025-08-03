@@ -240,7 +240,14 @@
                     "successfullyImported": "{{slug}} erfolgreich importiert",
                     "unknownImportStatus": "Unbekannter Import-Status"
                 }
-            }
+            },
+            "description": "Vorträge aus EventFahrplan importieren",
+            "importButton": "Importieren",
+            "importResult": "Import-Ergebnis",
+            "loadJsonFromFile": "Von JSON-Datei laden",
+            "pasteJsonHere": "Füge hier dein JSON aus EventFahrplan ein",
+            "resetImport": "Import zurücksetzen",
+            "selectRootFolder": "Root-Ordner auswählen"
         },
         "loginPage": {
             "components": {
