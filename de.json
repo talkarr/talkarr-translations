@@ -195,7 +195,20 @@
                 }
             },
             "noSearchResults": "Keine Suchergebnisse gefunden!",
-            "rootFolderNotFound": "Du hast noch keinen Root-Ordner aufgesetzt!"
+            "rootFolderNotFound": "Du hast noch keinen Root-Ordner aufgesetzt!",
+            "rootFolderNotFoundButtonText": "Gehe zu Medienmanagement",
+            "title": "Vortrag hinzufügen"
+        },
+        "generalSettingsPage": {
+            "components": {
+                "generalSettingsForm": {
+                    "externalServices": {
+                        "allowLibravatar": {
+                            "primaryText": "Libravatar erlauben"
+                        }
+                    }
+                }
+            }
         },
         "loginPage": {
             "components": {
