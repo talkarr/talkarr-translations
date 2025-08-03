@@ -1,6 +1,20 @@
 {
     "application": {
+        "description": "Erstelle deine persönliche Sammlung von Chaos Talks.",
         "name": "Talkarr"
+    },
+    "common": {
+        "add": "Hinzufügen",
+        "cancel": "Abbrechen",
+        "delete": "Löschen",
+        "edit": "Ändern",
+        "email": "E-Mail",
+        "emailPlaceholder": "Gib deine E-Mail ein",
+        "loading": "Lade…",
+        "login": "Anmelden",
+        "password": "Passwort",
+        "passwordPlaceholder": "Gib dein Passwort ein",
+        "save": "Speichern"
     },
     "pages": {
         "loginPage": {
