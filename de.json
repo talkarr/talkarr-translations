@@ -157,6 +157,10 @@
             "title": "Neue Version erkannt"
         }
     },
+    "navigation": {
+        "addTalk": "Vortrag hinzufügen",
+        "importTalks": "EventFahrplan importieren"
+    },
     "pages": {
         "loginPage": {
             "components": {
