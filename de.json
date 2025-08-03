@@ -80,6 +80,20 @@
             "DateAsc": "Datum (Aufsteigend)",
             "DateDesc": "Datum (Absteigend)",
             "Relevance": "Relevanz"
+        },
+        "videoBadgeType": {
+            "conference": {
+                "action": "Klicke, um nach dieser Konferenz zu suchen",
+                "default": "Konferenz"
+            },
+            "date": {
+                "action": "Klicke, um nach diesem Datum zu suchen",
+                "default": "Datum"
+            },
+            "language": {
+                "action": "Klicke, um nach dieser Sprache zu suchen",
+                "default": "Sprache"
+            }
         }
     },
     "pages": {
