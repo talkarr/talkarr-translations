@@ -71,7 +71,15 @@
             }
         },
         "mediaItemStatus": {
-            "Downloaded": "Heruntergeladene Videos"
+            "Downloaded": "Heruntergeladene Videos",
+            "Downloading": "Downloading videos",
+            "Missing": "Fehlende Videos",
+            "Problem": "Videos mit Problemen"
+        },
+        "searchTextFieldSortMethod": {
+            "DateAsc": "Datum (Aufsteigend)",
+            "DateDesc": "Datum (Absteigend)",
+            "Relevance": "Relevanz"
         }
     },
     "pages": {
