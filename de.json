@@ -330,6 +330,16 @@
             "description": "Bitte richte dein Admin-Konto ein. Stelle sicher, das deine Instanz nicht aus dem Internet erreichbar ist, solange das Admin-Konto nicht aufgesetzt ist.",
             "getStarted": "Erste Schritte",
             "title": "Willkommen bei $t(application.name)"
+        },
+        "welcomeStart": {
+            "components": {
+                "initialAccountForm": {
+                    "accountCreated": "Konto erfolgreich erstellt!",
+                    "accountCreationFailed": "Fehler beim Erstellen des Nutzers: {{error}}",
+                    "confirmPassword": "Passwort bestätigen",
+                    "confirmPasswordPlaceholder": "Passwort bestätigen"
+                }
+            }
         }
     },
     "thisLanguageName": "Deutsch"
