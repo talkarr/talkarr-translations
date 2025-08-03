@@ -231,6 +231,9 @@
                 "buttonText": "Gehe zu Medienmanagement"
             }
         },
+        "importJsonPage": {
+            "checkJsonError": "Beim Überprüfen des EventFahrplan JSON ist ein Fehler aufgetreten"
+        },
         "loginPage": {
             "components": {
                 "loginPageForm": {
