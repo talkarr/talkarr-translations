@@ -235,7 +235,8 @@
             "checkJsonError": "Beim Überprüfen des EventFahrplan JSON ist ein Fehler aufgetreten",
             "components": {
                 "importJsonRow": {
-                    "alreadyExists": "Vortrag existiert bereits, überspringe Import für {{slug}}"
+                    "alreadyExists": "Vortrag existiert bereits, überspringe Import für {{slug}}",
+                    "failedToImport": "Fehler beim Importieren von {{slug}}: {{error}}"
                 }
             }
         },
