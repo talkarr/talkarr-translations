@@ -93,6 +93,14 @@
             "language": {
                 "action": "Klicke, um nach dieser Sprache zu suchen",
                 "default": "Sprache"
+            },
+            "speaker": {
+                "action": "Klicke, um nach diesem Wesen zu suchen",
+                "default": "Wesen"
+            },
+            "tag": {
+                "action": "Klicke, um nach diesem Tag zu suchen",
+                "default": "Tag"
             }
         }
     },
