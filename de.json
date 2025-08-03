@@ -318,7 +318,8 @@
                 "taskList": {
                     "noTasksRunning": "Derzeit werden keine Aufgaben ausgeführt.",
                     "progress": "Fortschritt: {{progress}}%",
-                    "startedAt": "Gestartet um: {{startedAt}}"
+                    "startedAt": "Gestartet um: {{startedAt}}",
+                    "status": "Status: {{status}}"
                 }
             }
         }
