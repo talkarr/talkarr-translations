@@ -129,7 +129,12 @@
             "selectRootFolder": "Root-Ordner"
         },
         "confirmationModal": {
-            "cancel": "Abbrechen"
+            "cancel": "Abbrechen",
+            "confirm": "Bestätigen"
+        },
+        "informationModal": {
+            "applicationVersion": "$t(application.name) Version",
+            "buildId": "Build-ID"
         }
     },
     "pages": {
