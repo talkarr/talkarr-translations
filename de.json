@@ -206,7 +206,9 @@
                         "allowLibravatar": {
                             "primaryText": "Libravatar erlauben",
                             "secondaryText": "Dadurch wird das Abrufen von Avataren über die Konto-E-Mail ermöglicht."
-                        }
+                        },
+                        "description": "Konfiguriere externe Dienste für diese Software.",
+                        "title": "Externe Dienste"
                     }
                 }
             }
