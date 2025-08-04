@@ -52,7 +52,7 @@
             "sortTooltip": "Sortieren"
         },
         "yourMediaColorExplanation": {
-            "totalEvents": "Gesamt-Events"
+            "totalEvents": "Vorträge (Gesamt)"
         }
     },
     "enums": {
@@ -72,7 +72,7 @@
         },
         "mediaItemStatus": {
             "Downloaded": "Heruntergeladene Videos",
-            "Downloading": "Downloading videos",
+            "Downloading": "Herunterladende Videos",
             "Missing": "Fehlende Videos",
             "Problem": "Videos mit Problemen"
         },
