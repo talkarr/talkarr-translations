@@ -52,7 +52,7 @@
             "sortTooltip": "Sort by"
         },
         "yourMediaColorExplanation": {
-            "totalEvents": "Total events"
+            "totalEvents": "Talks (Total)"
         }
     },
     "enums": {
