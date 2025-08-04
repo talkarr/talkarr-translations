@@ -339,7 +339,9 @@
                     "confirmPassword": "Passwort bestätigen",
                     "confirmPasswordPlaceholder": "Bestätige dein Passwort",
                     "createAccountButton": "Erstelle deinen Nutzer",
-                    "displayName": "Anzeigename"
+                    "displayName": "Anzeigename",
+                    "displayNamePlaceholder": "Gib deinen Anzeigenamen ein",
+                    "email": "E-Mail"
                 }
             }
         }
