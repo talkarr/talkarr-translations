@@ -371,7 +371,8 @@
             "missing": "Fehlend",
             "problem": "Problem",
             "unknown": "Unbekannt"
-        }
+        },
+        "tags": "Schlagwörter"
     },
     "thisLanguageName": "Deutsch"
 }
