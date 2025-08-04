@@ -355,7 +355,23 @@
     },
     "talks": {
         "conference": "Konferenz",
-        "date": "Datum"
+        "date": "Datum",
+        "downloadError": "Fehler beim Herunterladen",
+        "duration": "Dauer",
+        "language": "Sprache",
+        "noOtherFiles": "Keine anderen Dateien gefunden",
+        "noVideoFiles": "Keine Videodateien gefunden",
+        "path": "Pfad",
+        "size": "Dateigröße",
+        "speaker": "Wesen",
+        "status": "Status",
+        "statusValues": {
+            "downloaded": "Heruntergeladen",
+            "downloading": "Herunterladen ({{progress}}%)",
+            "missing": "Fehlend",
+            "problem": "Problem",
+            "unknown": "Unbekannt"
+        }
     },
     "thisLanguageName": "Deutsch"
 }
