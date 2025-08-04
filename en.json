@@ -248,7 +248,8 @@
             "pasteJsonHere": "Paste your EventFahrplan JSON here",
             "resetImport": "Reset Import",
             "selectRootFolder": "Select Root Folder",
-            "title": "Import EventFahrplan JSON"
+            "title": "Import EventFahrplan JSON",
+            "fahrplanWarningText": "There is a known issue with the EventFahrplan producing weird JSON in case there are too many talks in your favorites. The issue is tracked here:"
         },
         "licenseSettingsPage": {
             "components": {
