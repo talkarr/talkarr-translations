@@ -337,7 +337,9 @@
                     "accountCreated": "Konto erfolgreich erstellt!",
                     "accountCreationFailed": "Fehler beim Erstellen des Nutzers: {{error}}",
                     "confirmPassword": "Passwort bestätigen",
-                    "confirmPasswordPlaceholder": "Passwort bestätigen"
+                    "confirmPasswordPlaceholder": "Bestätige dein Passwort",
+                    "createAccountButton": "Erstelle deinen Nutzer",
+                    "displayName": "Anzeigename"
                 }
             }
         }
