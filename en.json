@@ -198,6 +198,7 @@
             "noSearchResults": "No search results found!",
             "rootFolderNotFound": "You do not have a root folder set up yet!",
             "rootFolderNotFoundButtonText": "Go to media management settings",
+            "errorOccurred": "An error occurred while searching for talks.",
             "title": "Add Talk"
         },
         "generalSettingsPage": {
