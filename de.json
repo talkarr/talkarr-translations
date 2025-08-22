@@ -195,6 +195,7 @@
                     "searchError": "Bei der Suche nach Vorträgen ist ein Fehler aufgetreten."
                 }
             },
+            "errorOccurred": "Beim Suchen nach Vorträgen ist ein Fehler aufgetreten.",
             "noSearchResults": "Keine Suchergebnisse gefunden!",
             "rootFolderNotFound": "Du hast noch keinen Root-Ordner aufgesetzt!",
             "rootFolderNotFoundButtonText": "Gehe zu Medienmanagement",
@@ -243,6 +244,7 @@
                 }
             },
             "description": "Vorträge aus EventFahrplan importieren",
+            "fahrplanWarningText": "Es gibt ein bekanntes Problem mit der EventFahrplan-App, bei dem seltsames JSON produziert wird, falls es zu viele Vorträge in den Favoriten gibt. Das Problem wird hier verfolgt:",
             "importButton": "Importieren",
             "importResult": "Import-Ergebnis",
             "loadJsonFromFile": "Von JSON-Datei laden",
