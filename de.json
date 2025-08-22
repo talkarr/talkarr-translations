@@ -15,7 +15,8 @@
         "password": "Passwort",
         "passwordPlaceholder": "Gib dein Passwort ein",
         "save": "Speichern",
-        "search": "Suchen"
+        "search": "Suchen",
+        "unknown": "Unbekannt"
     },
     "components": {
         "appNotAvailable": {
