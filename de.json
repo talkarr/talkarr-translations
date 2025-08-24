@@ -366,7 +366,7 @@
         "noVideoFiles": "Keine Videodateien gefunden",
         "path": "Pfad",
         "size": "Dateigröße",
-        "speaker": "Wesen",
+        "speakers": "Wesen",
         "status": "Status",
         "statusValues": {
             "downloaded": "Heruntergeladen",

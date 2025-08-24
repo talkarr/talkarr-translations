@@ -366,7 +366,7 @@
         "noVideoFiles": "No video files found",
         "path": "Path",
         "size": "Size",
-        "speaker": "Speaker",
+        "speakers": "Speakers",
         "status": "Status",
         "statusValues": {
             "downloaded": "Downloaded",
