@@ -142,7 +142,11 @@
             "repository": "Repository",
             "title": "Informations about $t(application.name)",
             "unknownRepo": "Unknown repository",
-            "ytdlpVersion": "yt-dlp Version"
+            "ytdlpVersion": "yt-dlp Version",
+            "copiedToClipboard": "Copied to clipboard",
+            "failedToCopy": "Failed to copy to clipboard",
+            "copyToClipboard": "Copy informations to clipboard",
+            "openIssues": "Go to Issues page"
         },
         "rootFolderErrorModal": {
             "failedToForceMark": "Failed to force root folder mark",
