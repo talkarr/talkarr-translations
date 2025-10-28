@@ -12,6 +12,7 @@
         "emailPlaceholder": "Gib deine E-Mail ein",
         "loading": "Lade…",
         "login": "Anmelden",
+        "notSet": "Nicht gesetzt",
         "password": "Passwort",
         "passwordPlaceholder": "Gib dein Passwort ein",
         "save": "Speichern",
@@ -136,6 +137,9 @@
         "informationModal": {
             "applicationVersion": "$t(application.name) Version",
             "buildId": "Build-ID",
+            "copiedToClipboard": "In die Zwischenablage kopiert",
+            "copyToClipboard": "In die Zwischenablage kopieren",
+            "failedToCopy": "Fehler beim Kopieren in die Zwischenablage",
             "failedToLoadInfo": "Fehler beim Laden der App-Informationen",
             "nodeVersion": "Node.js-Version",
             "notBuildWithGithubActions": "Nicht mit GitHub Actions gebaut",
