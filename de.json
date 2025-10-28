@@ -335,10 +335,16 @@
             "title": "Aufgaben"
         },
         "userDetailsPage": {
+            "accountState": "Status des Nutzers",
+            "active": "Aktiv",
             "createdAt": "Erstellt am",
+            "deactivated": "Deaktiviert",
             "displayName": "Anzeigename",
             "email": "E-Mail",
-            "updatedAt": "Aktualisiert am"
+            "permissions": "Berechtigungen",
+            "profile": "Profil",
+            "updatedAt": "Aktualisiert am",
+            "userId": "Nutzer-ID"
         },
         "welcomePage": {
             "description": "Bitte richte dein Admin-Konto ein. Stelle sicher, das deine Instanz nicht aus dem Internet erreichbar ist, solange das Admin-Konto nicht aufgesetzt ist.",
