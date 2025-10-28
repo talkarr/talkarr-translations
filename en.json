@@ -16,7 +16,8 @@
         "passwordPlaceholder": "Enter your password",
         "save": "Save",
         "search": "Search",
-        "unknown": "Unknown"
+        "unknown": "Unknown",
+        "notSet": "Not set"
     },
     "components": {
         "appNotAvailable": {
@@ -310,6 +311,18 @@
             },
             "noUsersFound": "No users found",
             "title": "Security settings"
+        },
+        "userDetailsPage": {
+            "displayName": "Display name",
+            "email": "Email",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At",
+            "accountState": "Account state",
+            "userId": "User ID",
+            "profile": "Profile",
+            "permissions": "Permissions",
+            "active": "Active",
+            "deactivated": "Deactivated"
         },
         "settingsPage": {
             "title": "Settings"
