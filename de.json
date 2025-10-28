@@ -143,6 +143,7 @@
             "failedToLoadInfo": "Fehler beim Laden der App-Informationen",
             "nodeVersion": "Node.js-Version",
             "notBuildWithGithubActions": "Nicht mit GitHub Actions gebaut",
+            "openIssues": "Zum Issue-Tracker",
             "repository": "Repository",
             "title": "Informationen über $t(application.name)",
             "unknownRepo": "Unbekanntes Repository",
@@ -332,6 +333,12 @@
             "noTasksRunning": "Entweder trat ein Fehler auf oder es laufen derzeit keine Aufgaben.",
             "pleaseTryAgain": "Versuche es später erneut.",
             "title": "Aufgaben"
+        },
+        "userDetailsPage": {
+            "createdAt": "Erstellt am",
+            "displayName": "Anzeigename",
+            "email": "E-Mail",
+            "updatedAt": "Aktualisiert am"
         },
         "welcomePage": {
             "description": "Bitte richte dein Admin-Konto ein. Stelle sicher, das deine Instanz nicht aus dem Internet erreichbar ist, solange das Admin-Konto nicht aufgesetzt ist.",
