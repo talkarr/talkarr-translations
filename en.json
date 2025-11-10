@@ -107,9 +107,9 @@
         },
         "permission": {
             "Admin": "Admin",
-            "AddEvents": "Add events",
-            "EditEvents": "Edit events",
-            "DeleteEvents": "Delete events"
+            "AddEvents": "Add talks",
+            "EditEvents": "Edit talks",
+            "DeleteEvents": "Delete talks"
         }
     },
     "errors": {
