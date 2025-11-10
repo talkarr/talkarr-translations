@@ -104,6 +104,12 @@
                 "action": "Click to search for this tag",
                 "default": "Tag"
             }
+        },
+        "permission": {
+            "Admin": "Admin",
+            "AddEvents": "Add events",
+            "EditEvents": "Edit events",
+            "DeleteEvents": "Delete events"
         }
     },
     "errors": {
