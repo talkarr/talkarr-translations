@@ -78,6 +78,9 @@
             "Missing": "Fehlende Videos",
             "Problem": "Videos mit Problemen"
         },
+        "permission": {
+            "Admin": "Administrator"
+        },
         "searchTextFieldSortMethod": {
             "DateAsc": "Datum (Aufsteigend)",
             "DateDesc": "Datum (Absteigend)",
