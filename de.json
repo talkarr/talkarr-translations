@@ -79,7 +79,10 @@
             "Problem": "Videos mit Problemen"
         },
         "permission": {
-            "Admin": "Administrator"
+            "AddEvents": "Talks hinzufügen",
+            "Admin": "Administrator",
+            "DeleteEvents": "Talks löschen",
+            "EditEvents": "Talks editieren"
         },
         "searchTextFieldSortMethod": {
             "DateAsc": "Datum (Aufsteigend)",
