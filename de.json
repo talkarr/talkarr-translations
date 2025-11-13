@@ -356,6 +356,8 @@
         },
         "userPreferencesPage": {
             "timezone": {
+                "description": "Die Zeitzone, die für alle Zeit-Texte verwendet wird.",
+                "label": "Zeitzone",
                 "title": "Zeitzone der Oberfläche"
             },
             "title": "Nutzereinstellungen"
