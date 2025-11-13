@@ -328,7 +328,17 @@
             "profile": "Profile",
             "permissions": "Permissions",
             "active": "Active",
-            "deactivated": "Deactivated"
+            "deactivated": "Deactivated",
+            "title": "User details",
+            "titleTemplate": "Edit {{username}}"
+        },
+        "userPreferencesPage": {
+            "title": "User preferences",
+            "timezone": {
+                "title": "Interface Timezone",
+                "description": "The timezone used to format all time strings.",
+                "label": "Timezone"
+            }
         },
         "settingsPage": {
             "title": "Settings"
