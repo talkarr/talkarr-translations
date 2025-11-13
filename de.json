@@ -349,8 +349,16 @@
             "email": "E-Mail",
             "permissions": "Berechtigungen",
             "profile": "Profil",
+            "title": "User-Details",
+            "titleTemplate": "{{username}} bearbeiten",
             "updatedAt": "Aktualisiert am",
             "userId": "Nutzer-ID"
+        },
+        "userPreferencesPage": {
+            "timezone": {
+                "title": "Zeitzone der Oberfläche"
+            },
+            "title": "Nutzereinstellungen"
         },
         "welcomePage": {
             "description": "Bitte richte dein Admin-Konto ein. Stelle sicher, das deine Instanz nicht aus dem Internet erreichbar ist, solange das Admin-Konto nicht aufgesetzt ist.",
