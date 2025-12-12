@@ -6,6 +6,7 @@
     "common": {
         "add": "Hinzufügen",
         "cancel": "Abbrechen",
+        "continue": "Fortfahren",
         "delete": "Löschen",
         "edit": "Ändern",
         "email": "E-Mail",
@@ -268,6 +269,7 @@
                     "title": "EventFahrplan-App"
                 },
                 "schedule": {
+                    "description": "Importiere Vorträge von einer Fahrplan-URL (z.B. von einer Pretalx-Instanz). Diese werden automatisch heruntergeladen, sobald sie auf media.ccc.de verfügbar sind. Es kann jedoch sein, das sie nicht gefunden werden (wenn sich z.B. die GUID oder der Kürzel ändert)",
                     "title": "Fahrplan"
                 }
             },
