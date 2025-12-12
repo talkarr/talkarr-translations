@@ -254,8 +254,9 @@
                 }
             },
             "eventFahrplan": {
-                "checkJsonError": "Fehler beim verifizieren der EventFahrplan-Daten",
-                "loadJsonFromFile": "EventFahrplan von Datei laden",
+                "checkJsonError": "Beim Überprüfen des EventFahrplan JSON ist ein Fehler aufgetreten",
+                "fahrplanWarningText": "Es gibt ein bekanntes Problem mit der EventFahrplan-App, bei dem seltsames JSON produziert wird, falls es zu viele Vorträge in den Favoriten gibt. Das Problem wird hier verfolgt:",
+                "loadJsonFromFile": "EventFahrplan-JSON von Datei laden",
                 "pasteJsonHere": "EventFahrplan-Daten hier einfügen",
                 "title": "Von EventFahrplan importieren"
             },
