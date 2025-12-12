@@ -171,7 +171,7 @@
     },
     "navigation": {
         "addTalk": "Add Talk",
-        "importTalks": "Import EventFahrplan",
+        "importTalks": "Import Talks",
         "scanFiles": "Scan Files",
         "settings": {
             "general": {
@@ -245,7 +245,6 @@
             }
         },
         "importJsonPage": {
-            "checkJsonError": "An error occurred while verifying the EventFahrplan JSON",
             "components": {
                 "importJsonRow": {
                     "alreadyExists": "Talk already exists, skipping import for {{slug}}",
@@ -254,15 +253,37 @@
                     "unknownImportStatus": "Unknown import status"
                 }
             },
-            "description": "Import talks from EventFahrplan",
+            "eventFahrplan": {
+                "title": "Import from EventFahrplan",
+                "checkJsonError": "An error occurred while verifying the EventFahrplan JSON",
+                "loadJsonFromFile": "Load EventFahrplan JSON from File",
+                "pasteJsonHere": "Paste your EventFahrplan JSON here",
+                "fahrplanWarningText": "There is a known issue with the EventFahrplan producing weird JSON in case there are too many talks in your favorites. The issue is tracked here:"
+            },
+            "schedule": {
+                "dayN": "Day {{index}}",
+                "title": "Import from schedule",
+                "loadButton": "Load schedule from URL",
+                "url": "Please enter the URL to a schedule.json",
+                "hint": "All schedule.json files that follow <2>this schema</2> should be compatible. Most common sources are for example Pretalx. For Pretalx, just visit the schedule website and click on the version on the top right. Then copy the link to the JSON export and paste it here.",
+                "invalidSchema": "The schema provided by the URL is not valid.",
+                "invalidUrl": "The provided URL is not valid."
+            },
+            "title": "Import Talks",
             "importButton": "Import",
             "importResult": "Import Result",
-            "loadJsonFromFile": "Load JSON from File",
-            "pasteJsonHere": "Paste your EventFahrplan JSON here",
             "resetImport": "Reset Import",
             "selectRootFolder": "Select Root Folder",
-            "title": "Import EventFahrplan JSON",
-            "fahrplanWarningText": "There is a known issue with the EventFahrplan producing weird JSON in case there are too many talks in your favorites. The issue is tracked here:"
+            "methods": {
+                "eventFahrplan": {
+                    "title": "EventFahrplan",
+                    "description": "Import talks right from your EventFahrplan favorites. Most useful if you want to rewatch the talks that you marked during the event."
+                },
+                "schedule": {
+                    "title": "Schedule",
+                    "description": "Import talks from a schedule URL (for example from a Pretalx instance). They will get downloaded as soon as they are available on media.ccc.de. There is a possibility that the talk will not be found (if for example the guid or slug changes)"
+                }
+            }
         },
         "licenseSettingsPage": {
             "components": {
