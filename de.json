@@ -262,17 +262,27 @@
             },
             "importButton": "Importieren",
             "importResult": "Import-Ergebnis",
+            "methods": {
+                "eventFahrplan": {
+                    "description": "Importiere Vorträge direkt von deinen EventFahrplan-Favoriten. Nützlich, wenn du die Vorträge erneut anschauen willst, die du dir bereits auf dem Event herausgesucht hast.",
+                    "title": "EventFahrplan"
+                },
+                "schedule": {
+                    "title": "Fahrplan"
+                }
+            },
             "resetImport": "Import zurücksetzen",
             "schedule": {
                 "dayN": "Tag {{index}}",
                 "hint": "Alle schedule.json-Dateien, die <2>diesem Schema</2> entsprechen, sollten kompatibel sein. Häufig verwendete Quellen sind beispielsweise Pretalx. Bei Pretalx kann findet man den Link, wenn man auf die Version links oben klickt. Kopiere anschließend den Link zum JSON-Export und füge ihn hier ein.",
                 "invalidSchema": "Die Daten der URL haben ein ungültiges Format.",
+                "invalidUrl": "Die angegebene URL ist ungültig.",
                 "loadButton": "Fahrplan von URL importieren",
                 "title": "Von Fahrplan importieren",
                 "url": "Gib bitte eine URL zu einem schedule.json ein"
             },
             "selectRootFolder": "Root-Ordner auswählen",
-            "title": "EventFahrplan-JSON importieren"
+            "title": "Vorträge importieren"
         },
         "licenseSettingsPage": {
             "components": {
