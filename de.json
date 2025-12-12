@@ -263,6 +263,12 @@
             "importButton": "Importieren",
             "importResult": "Import-Ergebnis",
             "resetImport": "Import zurücksetzen",
+            "schedule": {
+                "dayN": "Tag {{index}}",
+                "loadButton": "Fahrplan von URL importieren",
+                "title": "Von Fahrplan importieren",
+                "url": "Gib bitte eine URL zu einem schedule.json ein"
+            },
             "selectRootFolder": "Root-Ordner auswählen",
             "title": "EventFahrplan-JSON importieren"
         },
