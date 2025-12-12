@@ -12,12 +12,12 @@
         "emailPlaceholder": "Enter your email",
         "loading": "Loading…",
         "login": "Login",
+        "notSet": "Not set",
         "password": "Password",
         "passwordPlaceholder": "Enter your password",
         "save": "Save",
         "search": "Search",
-        "unknown": "Unknown",
-        "notSet": "Not set"
+        "unknown": "Unknown"
     },
     "components": {
         "appNotAvailable": {
@@ -78,6 +78,12 @@
             "Missing": "Missing videos",
             "Problem": "Videos with problems"
         },
+        "permission": {
+            "AddEvents": "Add talks",
+            "Admin": "Admin",
+            "DeleteEvents": "Delete talks",
+            "EditEvents": "Edit talks"
+        },
         "searchTextFieldSortMethod": {
             "DateAsc": "Date (Ascending)",
             "DateDesc": "Date (Descending)",
@@ -104,12 +110,6 @@
                 "action": "Click to search for this tag",
                 "default": "Tag"
             }
-        },
-        "permission": {
-            "Admin": "Admin",
-            "AddEvents": "Add talks",
-            "EditEvents": "Edit talks",
-            "DeleteEvents": "Delete talks"
         }
     },
     "errors": {
@@ -143,17 +143,17 @@
         "informationModal": {
             "applicationVersion": "$t(application.name) Version",
             "buildId": "Build ID",
+            "copiedToClipboard": "Copied to clipboard",
+            "copyToClipboard": "Copy informations to clipboard",
+            "failedToCopy": "Failed to copy to clipboard",
             "failedToLoadInfo": "Failed to load application information",
             "nodeVersion": "Node.js Version",
             "notBuildWithGithubActions": "Not built with GitHub Actions",
+            "openIssues": "Go to Issues page",
             "repository": "Repository",
             "title": "Informations about $t(application.name)",
             "unknownRepo": "Unknown repository",
-            "ytdlpVersion": "yt-dlp Version",
-            "copiedToClipboard": "Copied to clipboard",
-            "failedToCopy": "Failed to copy to clipboard",
-            "copyToClipboard": "Copy informations to clipboard",
-            "openIssues": "Go to Issues page"
+            "ytdlpVersion": "yt-dlp Version"
         },
         "rootFolderErrorModal": {
             "failedToForceMark": "Failed to force root folder mark",
@@ -206,10 +206,10 @@
                     "searchError": "An error occurred while searching for talks."
                 }
             },
+            "errorOccurred": "An error occurred while searching for talks.",
             "noSearchResults": "No search results found!",
             "rootFolderNotFound": "You do not have a root folder set up yet!",
             "rootFolderNotFoundButtonText": "Go to media management settings",
-            "errorOccurred": "An error occurred while searching for talks.",
             "title": "Add Talk"
         },
         "generalSettingsPage": {
@@ -254,36 +254,36 @@
                 }
             },
             "eventFahrplan": {
-                "title": "Import from EventFahrplan",
                 "checkJsonError": "An error occurred while verifying the EventFahrplan JSON",
+                "fahrplanWarningText": "There is a known issue with the EventFahrplan producing weird JSON in case there are too many talks in your favorites. The issue is tracked here:",
                 "loadJsonFromFile": "Load EventFahrplan JSON from File",
                 "pasteJsonHere": "Paste your EventFahrplan JSON here",
-                "fahrplanWarningText": "There is a known issue with the EventFahrplan producing weird JSON in case there are too many talks in your favorites. The issue is tracked here:"
+                "title": "Import from EventFahrplan"
             },
-            "schedule": {
-                "dayN": "Day {{index}}",
-                "title": "Import from schedule",
-                "loadButton": "Load schedule from URL",
-                "url": "Please enter the URL to a schedule.json",
-                "hint": "All schedule.json files that follow <2>this schema</2> should be compatible. Most common sources are for example Pretalx. For Pretalx, just visit the schedule website and click on the version on the top right. Then copy the link to the JSON export and paste it here.",
-                "invalidSchema": "The schema provided by the URL is not valid.",
-                "invalidUrl": "The provided URL is not valid."
-            },
-            "title": "Import Talks",
             "importButton": "Import",
             "importResult": "Import Result",
-            "resetImport": "Reset Import",
-            "selectRootFolder": "Select Root Folder",
             "methods": {
                 "eventFahrplan": {
-                    "title": "EventFahrplan",
-                    "description": "Import talks right from your EventFahrplan favorites. Most useful if you want to rewatch the talks that you marked during the event."
+                    "description": "Import talks right from your EventFahrplan favorites. Most useful if you want to rewatch the talks that you marked during the event.",
+                    "title": "EventFahrplan App"
                 },
                 "schedule": {
-                    "title": "Schedule",
-                    "description": "Import talks from a schedule URL (for example from a Pretalx instance). They will get downloaded as soon as they are available on media.ccc.de. There is a possibility that the talk will not be found (if for example the guid or slug changes)"
+                    "description": "Import talks from a schedule URL (for example from a Pretalx instance). They will get downloaded as soon as they are available on media.ccc.de. There is a possibility that the talk will not be found (if for example the guid or slug changes)",
+                    "title": "Schedule"
                 }
-            }
+            },
+            "resetImport": "Reset Import",
+            "schedule": {
+                "dayN": "Day {{index}}",
+                "hint": "All schedule.json files that follow <2>this schema</2> should be compatible. Most common sources are for example Pretalx. For Pretalx, just visit the schedule website and click on the version on the top right. Then copy the link to the JSON export and paste it here.",
+                "invalidSchema": "The schema provided by the URL is not valid.",
+                "invalidUrl": "The provided URL is not valid.",
+                "loadButton": "Load schedule from URL",
+                "title": "Import from schedule",
+                "url": "Please enter the URL to a schedule.json"
+            },
+            "selectRootFolder": "Select Root Folder",
+            "title": "Import Talks"
         },
         "licenseSettingsPage": {
             "components": {
@@ -339,28 +339,6 @@
             "noUsersFound": "No users found",
             "title": "Security settings"
         },
-        "userDetailsPage": {
-            "displayName": "Display name",
-            "email": "Email",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At",
-            "accountState": "Account state",
-            "userId": "User ID",
-            "profile": "Profile",
-            "permissions": "Permissions",
-            "active": "Active",
-            "deactivated": "Deactivated",
-            "title": "User details",
-            "titleTemplate": "Edit {{username}}"
-        },
-        "userPreferencesPage": {
-            "title": "User preferences",
-            "timezone": {
-                "title": "Interface Timezone",
-                "description": "The timezone used to format all time strings.",
-                "label": "Timezone"
-            }
-        },
         "settingsPage": {
             "title": "Settings"
         },
@@ -382,6 +360,28 @@
             "noTasksRunning": "Either an error occurred or no tasks are currently running.",
             "pleaseTryAgain": "Please try again later.",
             "title": "Tasks"
+        },
+        "userDetailsPage": {
+            "accountState": "Account state",
+            "active": "Active",
+            "createdAt": "Created At",
+            "deactivated": "Deactivated",
+            "displayName": "Display name",
+            "email": "Email",
+            "permissions": "Permissions",
+            "profile": "Profile",
+            "title": "User details",
+            "titleTemplate": "Edit {{username}}",
+            "updatedAt": "Updated At",
+            "userId": "User ID"
+        },
+        "userPreferencesPage": {
+            "timezone": {
+                "description": "The timezone used to format all time strings.",
+                "label": "Timezone",
+                "title": "Interface Timezone"
+            },
+            "title": "User preferences"
         },
         "welcomePage": {
             "description": "Please setup your admin account here. As this does not require authentication, do not expose this to the internet.",
