@@ -253,6 +253,9 @@
                     "unknownImportStatus": "Unbekannter Import-Status"
                 }
             },
+            "eventFahrplan": {
+                "title": "Von EventFahrplan importieren"
+            },
             "importButton": "Importieren",
             "importResult": "Import-Ergebnis",
             "resetImport": "Import zurücksetzen",
