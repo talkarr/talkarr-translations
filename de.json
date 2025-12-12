@@ -254,6 +254,9 @@
                 }
             },
             "eventFahrplan": {
+                "checkJsonError": "Fehler beim verifizieren der EventFahrplan-Daten",
+                "loadJsonFromFile": "EventFahrplan von Datei laden",
+                "pasteJsonHere": "EventFahrplan-Daten hier einfügen",
                 "title": "Von EventFahrplan importieren"
             },
             "importButton": "Importieren",
