@@ -17,7 +17,8 @@
         "passwordPlaceholder": "Enter your password",
         "save": "Save",
         "search": "Search",
-        "unknown": "Unknown"
+        "unknown": "Unknown",
+        "continue": "Continue"
     },
     "components": {
         "appNotAvailable": {
