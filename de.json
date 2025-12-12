@@ -245,7 +245,6 @@
             }
         },
         "importJsonPage": {
-            "checkJsonError": "Beim Überprüfen des EventFahrplan JSON ist ein Fehler aufgetreten",
             "components": {
                 "importJsonRow": {
                     "alreadyExists": "Vortrag existiert bereits, überspringe Import für {{slug}}",
@@ -254,12 +253,8 @@
                     "unknownImportStatus": "Unbekannter Import-Status"
                 }
             },
-            "description": "Vorträge aus EventFahrplan importieren",
-            "fahrplanWarningText": "Es gibt ein bekanntes Problem mit der EventFahrplan-App, bei dem seltsames JSON produziert wird, falls es zu viele Vorträge in den Favoriten gibt. Das Problem wird hier verfolgt:",
             "importButton": "Importieren",
             "importResult": "Import-Ergebnis",
-            "loadJsonFromFile": "Von JSON-Datei laden",
-            "pasteJsonHere": "Füge hier dein JSON aus EventFahrplan ein",
             "resetImport": "Import zurücksetzen",
             "selectRootFolder": "Root-Ordner auswählen",
             "title": "EventFahrplan-JSON importieren"
