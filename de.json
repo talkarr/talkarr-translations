@@ -265,7 +265,7 @@
             "methods": {
                 "eventFahrplan": {
                     "description": "Importiere Vorträge direkt von deinen EventFahrplan-Favoriten. Nützlich, wenn du die Vorträge erneut anschauen willst, die du dir bereits auf dem Event herausgesucht hast.",
-                    "title": "EventFahrplan"
+                    "title": "EventFahrplan-App"
                 },
                 "schedule": {
                     "title": "Fahrplan"
