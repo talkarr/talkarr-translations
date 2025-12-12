@@ -265,6 +265,8 @@
             "resetImport": "Import zurücksetzen",
             "schedule": {
                 "dayN": "Tag {{index}}",
+                "hint": "Alle schedule.json-Dateien, die <2>diesem Schema</2> entsprechen, sollten kompatibel sein. Häufig verwendete Quellen sind beispielsweise Pretalx. Bei Pretalx kann findet man den Link, wenn man auf die Version links oben klickt. Kopiere anschließend den Link zum JSON-Export und füge ihn hier ein.",
+                "invalidSchema": "Die Daten der URL haben ein ungültiges Format.",
                 "loadButton": "Fahrplan von URL importieren",
                 "title": "Von Fahrplan importieren",
                 "url": "Gib bitte eine URL zu einem schedule.json ein"
